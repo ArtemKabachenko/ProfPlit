@@ -1,0 +1,106 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.main_menu ul li {
+		display: block;
+	}
+	.main_menu {
+		padding-bottom: 6px;
+	}
+	.nav_bar a {
+    padding: 15px 86px;
+	border-bottom-left-radius: 0px;
+    text-align: center;
+    margin-left: 30px;
+	}
+	.button_menu{
+		padding-right: 25px;
+		padding-left: 15px;
+    	padding-top: 8px;
+}
+	}
+	.text_item img {
+    max-width: 100%;
+    padding-top: 20px;
+	}
+	
+	.pop_form_right {
+		margin-right: 70px;
+		margin-bottom: 25px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.top_links{
+		display: none ;
+	}
+	.nav_bar ul{
+		display: none;
+	}
+	.main_menu ul {
+		display: none;
+	}
+	.pop_form {
+		display: none;
+	}
+	.pop_form_right {
+		display: none;
+	}
+	.photo_item{
+		margin-left: 60px !important;
+	}
+	.button{
+		width: 100%;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.photo_item{
+		margin-left: 60px !important;
+	}
+	.button{
+		width: 100%;
+	}
+}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
